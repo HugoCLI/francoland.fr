@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
+body{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	background-color:#f7f7f7;
+	max-width:110%;
+	min-width:90%;
+}
+
+
+.navigation a[alt=accueil]{
+	position:absolute;
+	z-index: 1;
+	right:250px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:black;
+	text-decoration:none;
+	font-size:27px
+}
+.navigation a[alt=membre]{
+	position:absolute;
+	z-index: 1;
+	right:400px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:#52a4ff;
+	text-decoration:none;
+	font-size:27px
+}
+.navigation a[alt=shop]{
+	position:absolute;
+	z-index: 1;
+	right:550px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:black;
+	text-decoration:none;
+	font-size:27px
+}
+.navigation a[alt=jouer]{
+	position:absolute;
+	z-index: 1;
+	right:700px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:black;
+	text-decoration:none;
+	font-size:27px
+}
+.navigation a[alt=discord]{
+	position:absolute;
+	z-index: 1;
+	right:100px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:black;
+	text-decoration:none;
+	font-size:33px;
+	opacity:.8;
+	color:black
+}
+.navigation a[alt=twitter]{
+	position:absolute;
+	z-index: 1;
+	right:50px;
+	top:32px;
+	font-weight:100;
+	font-family:Roboto,sans-serif;
+	color:black;
+	text-decoration:none;
+	font-size:33px;
+	opacity:.8;
+	color:black
+}
+.navigation a:hover{
+	transition:all .2s ease;
+	border-bottom:2px solid #52a4ff
+}
+
+.navigation img {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 64px;
+	max-width:64px;
+}
+
+
+
+@keyframes opac{
+	0% {opacity:0;}
+	50% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@keyframes opace{
+	0% {opacity:1; left:46%;}
+	50% {opacity:1; left:46%;}
+	90% {opacity:1; left:46%;}
+	100% {left: 2%; opacity:1;}
+}
+
+
+.search {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	background: url('https://i.goopics.net/o7Q5Y.png');
+	height: 85%;
+	background-size: 110% auto;
+}
+
+.search input[type="text"] {
+	position: absolute;
+	top:10%;
+	padding: 1% 1%;
+	font-size: 20px;
+	border-radius:8px;
+	border:none;
+	left: 20%;
+	font-family:Roboto,sans-serif;
+	width: 60%;
+
+}
+.search input[type="submit"] {
+	position:absolute;
+	top:12.5%;
+	color: #52a4ff;
+	left:75%;
+	background:none;
+	font-family:Roboto,sans-serif;
+	border:none;
+	cursor:pointer;
+	font-size: 20px;
+}
+.search input[type="text"]:focus {
+	transition:all 0.3s ease;
+	padding: 1% 2%;
+	width: 58%;
+
+}
+
+.search span {
+	position: absolute;
+	top: 22%;
+	font-size: 20px;
+	font-weight:300;
+	left: 20%;
+	color: #e72a2a;
+	font-family:Roboto,sans-serif;
+
+}
+
+.profil {
+	position: absolute;
+	left: 20%;
+	width: 62%;
+	border-radius:8px;
+	top: 40%;
+	height: 30%;
+	background: white;
+}
+
+.profil img {
+	position: absolute;
+	left: 2%;
+	top: 7%;
+	border-radius:8px;
+}
+
+.profil h2 {
+	position: absolute;
+	left: 15%;
+	top: -5%;
+	font-family:Roboto,sans-serif;
+	font-weight: 100;
+	font-size: 32px;
+}
+
+.profil .developpeur {
+	position: absolute;
+	background: #F6D716;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+
+.profil .administrateur {
+	position: absolute;
+	background: #D7342A;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+
+.profil .architecte {
+	position: absolute;
+	background: #28E41A;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+
+.profil .community-manager {
+	position: absolute;
+	background: #F0B711;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+.profil .moderateur {
+	position: absolute;
+	background: #3498DB;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+.profil .partenaire {
+	position: absolute;
+	background: #95F7E2;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+.profil .youtubeur {
+	position: absolute;
+	background: #DF1C1C;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+.profil .joueur {
+	position: absolute;
+	background: #B9BBBE;
+	padding: 0.4% 1%;
+	color: white;
+	font-size: 18px;
+	font-family:Roboto,sans-serif;
+	font-weight: 300;
+	border-radius:8px;
+	left: 15%;
+	top: 50%;
+}
+
+
+

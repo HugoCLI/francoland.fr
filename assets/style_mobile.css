@@ -1,0 +1,363 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap);
+
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
+
+
+body{
+
+	overflow-y:hidden;
+
+	overflow-x:hidden;
+
+	background: url('https://i.goopics.net/o7Q5Y.png');
+
+	background-repeat:no-repeat;
+
+	background-size:300%;
+
+	background-color:#303030
+
+}
+
+
+
+.title h2{
+
+	font-family:Roboto,sans-serif;
+
+	font-weight:300;
+
+	font-size:120px;
+
+	color:#fff;
+
+	position:absolute;
+
+	left:20%;
+
+	top:10%
+
+}
+
+.title span{
+
+	position:absolute;
+
+	width:80%;
+
+	height:.5%;
+
+	background:gray;
+
+	left:10%;
+
+	animation-name:spantitle;
+
+	animation-duration:2s;
+
+	top:30%
+
+}
+
+.title a[id=online]{
+
+	position:absolute;
+
+	font-size:45px;
+
+	font-family:Roboto,sans-serif;
+
+	bottom:5%;
+
+	left:10%;
+
+	visibility:hidden;
+
+	font-weight:100;
+
+	color:#fff
+
+}
+
+.title a[id=ip]{
+
+	position:absolute;
+
+	font-size:60px;
+
+	font-family:Roboto,sans-serif;
+
+	top:35%;
+
+	font-weight:100;
+
+	left:27%;
+
+	opacity:1;
+
+	color:#fff
+
+}
+
+.navigation a[alt=accueil]{
+
+	position:absolute;
+
+	left: 0;
+
+	bottom:40%;
+
+	font-weight:300;
+
+	text-align: center;
+	font-size: 80px;
+
+
+	font-family:Roboto,sans-serif;
+
+	color:white;
+
+	width: 100%;
+	height: 7%;
+
+	text-decoration:none;
+
+	background:#52a4ff ;
+
+	vertical-align: middle;
+
+	border-radius:8px;
+
+
+}
+
+.navigation a[alt=membre]{
+
+
+	position:absolute;
+
+	left: 0;
+
+	bottom:32%;
+
+	font-weight:300;
+
+	text-align: center;
+	font-size: 80px;
+
+
+	font-family:Roboto,sans-serif;
+
+	color:white;
+
+	width: 100%;
+	height: 7%;
+
+	text-decoration:none;
+
+	background:#52a4ff ;
+
+	vertical-align: middle;
+
+	border-radius:8px;
+
+
+}
+
+.navigation a[alt=shop]{
+
+
+	position:absolute;
+
+	left: 0;
+
+	bottom:24%;
+
+	font-weight:300;
+
+	text-align: center;
+	font-size: 80px;
+
+
+	font-family:Roboto,sans-serif;
+
+	color:white;
+
+	width: 100%;
+	height: 7%;
+
+	text-decoration:none;
+
+	background:#52a4ff ;
+
+	vertical-align: middle;
+
+	border-radius:8px;
+
+
+}
+
+.navigation a[alt=jouer]{
+
+
+	position:absolute;
+
+	left: 0;
+
+	bottom:16%;
+
+	font-weight:300;
+
+	text-align: center;
+	font-size: 80px;
+
+
+	font-family:Roboto,sans-serif;
+
+	color:white;
+
+	width: 100%;
+	height: 7%;
+
+	text-decoration:none;
+
+	background:#52a4ff ;
+
+	vertical-align: middle;
+
+	border-radius:8px;
+
+
+}
+
+.navigation a[alt=discord]{
+
+	position:absolute;
+
+	left:35%;
+
+	bottom:4%;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+
+	font-size:100px;
+
+	opacity:.8;
+
+
+}
+
+.navigation a[alt=twitter]{
+
+
+	position:absolute;
+
+	right:35%;
+
+	bottom:4%;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+
+	font-size:100px;
+
+	opacity:.8;
+
+
+}
+
+
+.navigation span{
+
+	position:absolute;
+
+	width:10%;
+
+	height:.2%;
+
+	background:gray;
+
+	right:10%;
+
+	top:70%;
+
+	visibility:hidden;
+
+}
+
+@keyframes spantitle{
+
+	from{width:0%}
+
+	to{width:80%}
+
+}
+
+
+}@keyframes adresseip{
+
+	0%{opacity:0;left:5%;top:52%}
+
+	75%{opacity:0;left:5%;top:52%}
+
+	100%{opacity:1;left:10%;top:52%}
+
+}
+
+@keyframes discord{
+
+	from{top:77%;opacity:0}
+
+	to{top:72%;opacity:.8}
+
+}
+
+
+.alert {
+	position: absolute;
+	left: 10%;
+	top: 87%;
+	visibility: hidden;
+	animation-name:alert;
+	animation-duration:2s;
+	border-radius:8px;
+	background: #D7342A;
+	color: white;
+	z-index:1;
+	width: 25%;
+	height: 7%;
+}
+
+.alert h4 {
+	font-weight:100;
+	position: absolute;
+	left: 6%;
+	top: -30%;
+	font-size: 19px;
+	font-family:Roboto,sans-serif;
+}
+
+
+
+
+@keyframes alert{
+
+	0%{left:0%;opacity:0;}
+	50%{left:12%;opacity:1;}
+	100%{left:10%;opacity:1;}
+
+}

@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
+
+
+body{
+
+	overflow-y:hidden;
+
+	overflow-x:hidden;
+
+	background: url('https://i.goopics.net/o7Q5Y.png');
+
+	background-repeat:no-repeat;
+
+	background-size:110%;
+
+	background-color:#303030
+
+}
+
+
+
+.title h2{
+
+	font-family:Roboto,sans-serif;
+
+	font-weight:100;
+
+	font-size:60px;
+
+	color:#fff;
+
+	position:absolute;
+
+	left:130px;
+
+	top:190px;
+
+}
+
+.title span{
+
+	position:absolute;
+
+	width:300px;
+
+	height:.2%;
+
+	background:gray;
+
+	left:130px;
+
+	animation-name:spantitle;
+
+	animation-duration:2s;
+
+	top:320px
+
+}
+
+.title a[id=online]{
+
+	position:absolute;
+
+	font-size:25px;
+
+	font-family:Roboto,sans-serif;
+
+	top:500px;
+
+	left:130px;
+
+	animation-name:onlineplayer;
+
+	animation-duration:3s;
+
+
+	font-weight:100;
+
+	color:#fff
+
+}
+
+.title a[id=ip]{
+
+	position:absolute;
+
+	font-size:30px;
+
+	font-family:Roboto,sans-serif;
+
+	top:330px;
+
+	font-weight:100;
+
+	left:130px;
+
+	animation-name:adresseip;
+
+	animation-duration:4s;
+
+	opacity:1;
+
+	color:#fff
+
+}
+
+.navigation a[alt=accueil]{
+
+	position:absolute;
+
+	right: 150px;
+
+	top:200px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#52a4ff;
+
+	text-decoration:none;
+
+	font-size:27px
+
+}
+
+.navigation a[alt=membre]{
+
+	position:absolute;
+
+	right: 150px;
+
+	top:260px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	font-size:27px
+
+}
+
+.navigation a[alt=shop]{
+
+	position:absolute;
+
+	right: 150px;
+
+	top:320px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	font-size:27px
+
+}
+
+.navigation a[alt=jouer]{
+
+	position:absolute;
+
+	right: 150px;
+
+	top:380px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	font-size:27px
+
+}
+
+.navigation a[alt=discord]{
+
+	position:absolute;
+
+	right: 150px;
+
+	top:455px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	animation-name:discord;
+
+	animation-duration:2s;
+
+	font-size:33px;
+
+	opacity:.8;
+
+	color:#fff
+
+}
+
+.navigation a[alt=twitter]{
+
+	position:absolute;
+
+	right:190px;
+
+	top:455px;
+
+	font-weight:100;
+
+	font-family:Roboto,sans-serif;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	animation-name:discord;
+
+	animation-duration:2s;
+
+	font-size:33px;
+
+	opacity:.8;
+
+	color:#fff
+
+}
+
+.navigation a:hover{
+
+	transition:all .3s ease;
+
+	border-bottom:2px solid #fff
+
+}
+
+.navigation span{
+
+	position:absolute;
+
+	width:140px;
+
+	height:.2%;
+
+	background:gray;
+
+	right: 150px;
+
+	animation-name:spannav;
+
+	animation-duration:2s;
+
+	top:430px;
+
+}
+
+@keyframes spantitle{
+
+	from{width:0%}
+
+	to{width:300px}
+
+}
+
+@keyframes spannav{
+
+	from{width:0px}
+
+	to{width:140px;}
+
+}@keyframes adresseip{
+
+	0%{opacity:0;left:50px;}
+
+	75%{opacity:0;left:50px;}
+
+	100%{opacity:1;left:130px;}
+
+}@keyframes onlineplayer{
+
+	0%{opacity:1;top:330px;font-size:30px;}
+
+	75%{opacity:1;top:330px;font-size:30px;}
+
+	100%{opacity:1;top:500px;;font-size:25px;}
+
+}
+
+@keyframes discord{
+
+	from{top:500px;;opacity:0}
+
+	to{top:455px;opacity:.8}
+
+}
+
+
+
+
+

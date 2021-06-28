@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
+body{
+	background-color:#f7f7f7;
+	background: url('https://i.goopics.net/o7Q5Y.png');
+	background-size:100%;
+}
+
+
+h2 {
+	font-weight:100;
+	font-family:Roboto,sans-serif;	
+	position: absolute;
+	left:35%;
+	color:white;
+	z-index:1;
+	animation-name:i2;
+	animation-duration:1.5s;
+	top:125px;
+	font-size:60px;
+}
+
+h2 span {
+	font-weight:300;
+	color:white;
+}
+
+
+s {
+	position: absolute;
+	background:#52a4ff;
+	width:305px;
+	height:70px;
+	border-radius:18px;
+	top:175px;
+	left:34.5%;
+	animation-name:i;
+	animation-duration:1.5s;
+	margin-right: 10px;
+}
+@keyframes i{
+	0% {width:0px;opacity:0;}
+	25% {width:0px;}
+	100% {width:305px;opacity:1;}
+}
+@keyframes i2{
+	0% {left:300px;opacity:0;}
+	25% {left:300px;opacity:0;}
+	100% {left:35%;opacity:1;}
+}
+
+.post-assistant {
+	position:absolute;
+	top:400px;
+	background: #e8e8e8;
+	left:0;
+	width:100%;
+	height:125px;
+}
+
+.post-assistant h3 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:5%;
+	top:15px;	
+	font-size:30px;
+}
+
+.post-assistant h4 {
+	font-weight:100;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:60%;
+	top:15px;	
+	font-size:25px;
+}
+
+.post-assistant a {
+	position:absolute;
+	background:#52a4ff;
+	left:85%;
+	border-radius:8px;
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	top:50px;
+	padding:10px 30px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+.post-animateur {
+	position:absolute;
+	top:525px;
+	background: #e8e8e8;
+	left:0;
+	width:100%;
+	height:125px;
+}
+
+.post-animateur h3 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:5%;
+	top:15px;	
+	font-size:30px;
+}
+
+.post-animateur h4 {
+	font-weight:100;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:60%;
+	top:15px;	
+	font-size:25px;
+}
+
+.post-animateur a {
+	position:absolute;
+	background:#52a4ff;
+	left:85%;
+	border-radius:8px;
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	top:50px;
+	padding:10px 30px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+.post-modo {
+	position:absolute;
+	top:650px;
+	background: #e8e8e8;
+	left:0;
+	width:100%;
+	height:125px;
+}
+
+.post-modo h3 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:5%;
+	top:15px;	
+	font-size:30px;
+}
+
+.post-modo h4 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:60%;
+	top:15px;	
+	font-size:25px;
+}
+
+.post-modo a {
+	position:absolute;
+	background:#52a4ff;
+	left:85%;
+	border-radius:8px;
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	top:50px;
+	padding:10px 30px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+.post-dev {
+	position:absolute;
+	top:775px;
+	background: #e8e8e8;
+	left:0;
+	width:100%;
+	height:125px;
+}
+
+.post-dev h3 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:5%;
+	top:15px;	
+	font-size:30px;
+}
+
+.post-dev h4 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:60%;
+	top:15px;	
+	font-size:25px;
+}
+
+.post-dev a {
+	position:absolute;
+	background:#52a4ff;
+	left:85%;
+	border-radius:8px;
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	top:50px;
+	padding:10px 30px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+.post-archi {
+	position:absolute;
+	top:900px;
+	background: #e8e8e8;
+	left:0;
+	width:100%;
+	height:125px;
+}
+
+.post-archi h3 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:5%;
+	top:15px;	
+	font-size:30px;
+}
+
+.post-archi h4 {
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	position:absolute;
+	left:60%;
+	top:15px;	
+	font-size:25px;
+}
+
+.post-archi a {
+	position:absolute;
+	background:#52a4ff;
+	left:85%;
+	border-radius:8px;
+	font-weight:300;
+	font-family:Roboto,sans-serif;	
+	top:50px;
+	padding:10px 30px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+.close {
+	color: #f54141;
+
+}
